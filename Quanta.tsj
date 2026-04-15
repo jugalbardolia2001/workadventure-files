@@ -1,0 +1,20 @@
+{ "columns":22,
+ "grid":
+    {
+     "height":720,
+     "orientation":"orthogonal",
+     "width":720
+    },
+ "image":"..\/..\/Downloads\/quanta.png",
+ "imageheight":720,
+ "imagewidth":720,
+ "margin":0,
+ "name":"Quanta",
+ "spacing":0,
+ "tilecount":484,
+ "tiledversion":"1.12.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"..\/..\/Downloads\/quanta.png",
+ "imageheight":720,
+ "imagewidth":720,
+ "margin":0,
+ "name":"Quanta 2",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.12.1",
+ "tileheight":720,
+ "tilewidth":720,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":11,
+ "image":"..\/..\/Downloads\/TILESET GRATIS MUNDOALEXO PLAY (1).png",
+ "imageheight":500,
+ "imagewidth":352,
+ "margin":0,
+ "name":"TILESET GRATIS MUNDOALEXO PLAY",
+ "spacing":0,
+ "tilecount":165,
+ "tiledversion":"1.12.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}
