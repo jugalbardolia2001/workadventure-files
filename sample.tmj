@@ -129,16 +129,49 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":11,
          "firstgid":1,
-         "source":"TILESET GRATIS MUNDOALEXO PLAY.tsj"
+         "image":"TILESET GRATIS MUNDOALEXO PLAY.png",
+         "imageheight":500,
+         "imagewidth":352,
+         "margin":0,
+         "name":"TILESET GRATIS MUNDOALEXO PLAY",
+         "spacing":0,
+         "tilecount":165,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":22,
          "firstgid":166,
-         "source":"Quanta.tsj"
+         "grid":
+            {
+             "height":720,
+             "orientation":"orthogonal",
+             "width":720
+            },
+         "image":"quanta.png",
+         "imageheight":720,
+         "imagewidth":720,
+         "margin":0,
+         "name":"Quanta",
+         "spacing":0,
+         "tilecount":484,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":1,
          "firstgid":650,
-         "source":"Quanta 2.tsj"
+         "image":"quanta.png",
+         "imageheight":720,
+         "imagewidth":720,
+         "margin":0,
+         "name":"Quanta 2",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":720,
+         "tilewidth":720
         }],
  "tilewidth":32,
  "type":"map",
