@@ -600,35 +600,55 @@
       ]
     },
     {
-      "id": 5,
-      "name": "zones",
-      "type": "objectgroup",
-      "x": 0,
-      "y": 0,
+  "id": 5,
+  "name": "zones",
+  "type": "objectgroup",
+  "x": 0,
+  "y": 0,
+  "visible": true,
+  "opacity": 1,
+  "objects": [
+    {
+      "id": 11,
+      "name": "podium_1",
+      "x": 128,
+      "y": 384,
+      "width": 128,
+      "height": 128,
       "visible": true,
-      "opacity": 1,
-      "objects": [
-        {
-          "id": 11,
-          "name": "lectern_spotlight",
-          "class": "",
-          "type": "",
-          "x": 128, 
-          "y": 384,
-          "width": 128,
-          "height": 128,
-          "rotation": 0,
-          "visible": true,
-          "properties": [
-            {
-              "name": "spotlight",
-              "type": "bool",
-              "value": true
-            }
-          ]
-        }
+      "properties": [
+        { "name": "zone", "type": "string", "value": "podium_1" },
+        { "name": "podium", "type": "string", "value": "podium_1" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "podium_2",
+      "x": 1664,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        { "name": "zone", "type": "string", "value": "podium_2" },
+        { "name": "podium", "type": "string", "value": "podium_2" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "podium_3",
+      "x": 896,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        { "name": "zone", "type": "string", "value": "podium_3" },
+        { "name": "podium", "type": "string", "value": "podium_3" }
       ]
     }
+  ]
+}
   ],
   "tilesets": [
     {
