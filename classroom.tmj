@@ -610,46 +610,55 @@
   "objects": [
     {
       "id": 11,
-      "name": "podium_1",
-      "x": 128,
-      "y": 384,
-      "width": 128,
-      "height": 128,
-      "visible": true,
+      "name": "podium_1_speaker",
+      "x": 128, "y": 384, "width": 128, "height": 128,
       "properties": [
-        { "name": "zone", "type": "string", "value": "podium_1" },
-        { "name": "podium", "type": "string", "value": "podium_1" }
+        { "name": "podium", "type": "string", "value": "lectern" }
       ]
     },
     {
       "id": 12,
-      "name": "podium_2",
-      "x": 1664,
-      "y": 384,
-      "width": 128,
-      "height": 128,
-      "visible": true,
+      "name": "podium_1_audience",
+      "x": 256, "y": 256, "width": 512, "height": 512,
       "properties": [
-        { "name": "zone", "type": "string", "value": "podium_2" },
-        { "name": "podium", "type": "string", "value": "podium_2" }
+        { "name": "audience", "type": "string", "value": "lectern" }
       ]
     },
     {
       "id": 13,
-      "name": "podium_3",
-      "x": 896,
-      "y": 128,
-      "width": 128,
-      "height": 128,
-      "visible": true,
+      "name": "podium_2_speaker",
+      "x": 1664, "y": 384, "width": 128, "height": 128,
       "properties": [
-        { "name": "zone", "type": "string", "value": "podium_3" },
-        { "name": "podium", "type": "string", "value": "podium_3" }
+        { "name": "podium", "type": "string", "value": "stage_right" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "podium_2_audience",
+      "x": 1152, "y": 256, "width": 512, "height": 512,
+      "properties": [
+        { "name": "audience", "type": "string", "value": "stage_right" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "podium_3_speaker",
+      "x": 896, "y": 128, "width": 128, "height": 128,
+      "properties": [
+        { "name": "podium", "type": "string", "value": "main_stage" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "podium_3_audience",
+      "x": 640, "y": 256, "width": 640, "height": 640,
+      "properties": [
+        { "name": "audience", "type": "string", "value": "main_stage" }
       ]
     }
   ]
 }
-  ],
+],
   "tilesets": [
     {
       "firstgid": 1,
